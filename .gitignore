@@ -1,0 +1,63 @@
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+hs_err_pid*.log
+
+# =========================
+# IDEs and Editors
+# =========================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iws
+*.iml
+*.ipr
+.settings/
+.classpath
+.project
+.factorypath
+.springBeans
+.apt_generated
+
+# =========================
+# Frontend (Node.js & Vite)
+# =========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# =========================
+# Backend (Java / Spring Boot)
+# =========================
+.gradle/
+build/
+out/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# Secrets / Enviroment Variables
+# =========================
+.env
+.env.*
+!.env.example
