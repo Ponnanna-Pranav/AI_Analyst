@@ -1,0 +1,63 @@
+
+> Task :compileJava FAILED
+C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\service\OpenAiService.java:5: error: package com.fasterxml.jackson.databind does not exist
+import com.fasterxml.jackson.databind.ObjectMapper;
+                                     ^
+C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\service\OpenAiService.java:26: error: cannot find symbol
+    private final ObjectMapper objectMapper = new ObjectMapper();
+                  ^
+  symbol:   class ObjectMapper
+  location: class OpenAiService
+C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\converter\MapToJsonConverter.java:3: error: package com.fasterxml.jackson.core does not exist
+import com.fasterxml.jackson.core.JsonProcessingException;
+                                 ^
+C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\converter\MapToJsonConverter.java:4: error: package com.fasterxml.jackson.core.type does not exist
+import com.fasterxml.jackson.core.type.TypeReference;
+                                      ^
+C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\converter\MapToJsonConverter.java:5: error: package com.fasterxml.jackson.databind does not exist
+import com.fasterxml.jackson.databind.ObjectMapper;
+                                     ^
+C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\converter\MapToJsonConverter.java:15: error: cannot find symbol
+    private final ObjectMapper objectMapper = new ObjectMapper();
+                  ^
+  symbol:   class ObjectMapper
+  location: class MapToJsonConverter
+6 errors
+
+[Incubating] Problems report is available at: file:///C:/Users/Prana/Documents/DSU/Placements/Labmentix-internship/Project_7/AI_Analyst/backend/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\service\OpenAiService.java:26: error: cannot find symbol
+      private final ObjectMapper objectMapper = new ObjectMapper();
+                    ^
+    symbol:   class ObjectMapper
+    location: class OpenAiService
+  C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\converter\MapToJsonConverter.java:15: error: cannot find symbol
+      private final ObjectMapper objectMapper = new ObjectMapper();
+                    ^
+    symbol:   class ObjectMapper
+    location: class MapToJsonConverter
+  C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\service\OpenAiService.java:5: error: package com.fasterxml.jackson.databind does not exist
+  import com.fasterxml.jackson.databind.ObjectMapper;
+                                       ^
+  C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\converter\MapToJsonConverter.java:3: error: package com.fasterxml.jackson.core does not exist
+  import com.fasterxml.jackson.core.JsonProcessingException;
+                                   ^
+  C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\converter\MapToJsonConverter.java:4: error: package com.fasterxml.jackson.core.type does not exist
+  import com.fasterxml.jackson.core.type.TypeReference;
+                                        ^
+  C:\Users\Prana\Documents\DSU\Placements\Labmentix-internship\Project_7\AI_Analyst\backend\src\main\java\com\dashboard\backend\converter\MapToJsonConverter.java:5: error: package com.fasterxml.jackson.databind does not exist
+  import com.fasterxml.jackson.databind.ObjectMapper;
+                                       ^
+1 actionable task: 1 executed
+  6 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 1s
